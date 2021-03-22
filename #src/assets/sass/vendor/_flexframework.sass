@@ -1,0 +1,434 @@
+// ********************************************************************
+// ********************************************************************
+// ********************************************************************
+// FLEX FRAMEWORK v.1.1 by Nio 07.02.2021
+// ********************************************************************
+// ********************************************************************
+// ********************************************************************
+
+// AI Mixins
+
+@mixin _ais
+  align-items: flex-start
+
+@mixin _aie
+  align-items: flex-end
+
+@mixin _aic
+  align-items: center
+
+// Mixins without position
+
+@mixin fdc
+  display: flex
+  flex-direction: column
+
+@mixin fdr
+  display: flex
+  flex-direction: row
+
+// Column mixins positioned
+
+@mixin fdcjs
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+
+@mixin fdcje
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+
+@mixin fdcjc
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+@mixin fdcjsb
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+
+@mixin fdcjsa
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+
+@mixin fdcjbl
+  display: flex
+  flex-direction: column
+  justify-content: baseline
+
+@mixin fdcjse
+  display: flex
+  flex-direction: column
+  justify-content: space-evenly
+
+// Row mixins positioned
+
+@mixin fdrjs
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+
+@mixin fdrje
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+
+@mixin fdrjc
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+@mixin fdrjsb
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+
+@mixin fdrjsa
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+
+@mixin fdrjbl
+  display: flex
+  flex-direction: row
+  justify-content: baseline
+
+@mixin frcjse
+  display: flex
+  flex-direction: row
+  justify-content: space-evenly
+
+// ----------------------Column Align-items mixins------------------------
+// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
+
+// ---Column AI Flex Start---
+
+@mixin fdc_ais
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+
+// ---Column AI Flex End---
+
+@mixin fdc_aie
+  display: flex
+  flex-direction: column
+  align-items: flex-end
+
+// ---Column AI Flex Center---
+
+@mixin fdc_aic
+  display: flex
+  flex-direction: column
+  align-items: center
+
+// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
+
+// ---Column AI Flex Justify Start---
+
+@mixin fdcjs_ais
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  align-items: flex-start
+
+@mixin fdcje_ais
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  align-items: flex-start
+
+@mixin fdcjc_ais
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: flex-start
+
+@mixin fdcjsb_ais
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: flex-start
+
+@mixin fdcjsa_ais
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  align-items: flex-start
+
+@mixin fdcjbl_ais
+  display: flex
+  flex-direction: column
+  justify-content: baseline
+  align-items: flex-start
+
+@mixin fdcjse_ais
+  display: flex
+  flex-direction: column
+  justify-content: space-evenly
+  align-items: flex-start
+
+// ---Column AI Flex Justify End---
+
+@mixin fdcjs_aie
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  align-items: flex-end
+
+@mixin fdcje_aie
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  align-items: flex-end
+
+@mixin fdcjc_aie
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: flex-end
+
+@mixin fdcjsb_aie
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: flex-end
+
+@mixin fdcjsa_aie
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  align-items: flex-end
+
+@mixin fdcjbl_aie
+  display: flex
+  flex-direction: column
+  justify-content: baseline
+  align-items: flex-end
+
+@mixin fdcjse_aie
+  display: flex
+  flex-direction: column
+  justify-content: space-evenly
+  align-items: flex-end
+
+// ---Column AI Flex Justify Center---
+
+@mixin fdcjs_aic
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  align-items: center
+
+@mixin fdcje_aic
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  align-items: center
+
+@mixin fdcjc_aic
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+@mixin fdcjsb_aic
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+
+@mixin fdcjsa_aic
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  align-items: center
+
+@mixin fdcjbl_aic
+  display: flex
+  flex-direction: column
+  justify-content: baseline
+  align-items: center
+
+@mixin fdcjse_aic
+  display: flex
+  flex-direction: column
+  justify-content: space-evenly
+  align-items: center
+
+// ----------------------Column Align-items END------------------------
+// ********************************************************************
+// ********************************************************************
+// ********************************************************************
+// ----------------------Row Align-items mixins-------------------------
+
+
+// ---Row AI Flex Start---
+
+@mixin fdr_ais
+  display: flex
+  flex-direction: row
+  align-items: flex-start
+
+// ---Row AI Flex End---
+
+@mixin fdr_ais
+  display: flex
+  flex-direction: row
+  align-items: flex-end
+
+// ---Row AI Flex Center---
+
+@mixin fdr_aic
+  display: flex
+  flex-direction: row
+  align-items: center
+
+
+// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
+
+
+// ---Row AI Flex Justify Start---
+
+@mixin fdrjs_ais
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+  align-items: flex-start
+
+@mixin fdrje_ais
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+  align-items: flex-start
+
+@mixin fdrjc_ais
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: flex-start
+
+@mixin fdrjsb_ais
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: flex-start
+
+@mixin fdrjsa_ais
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  align-items: flex-start
+
+@mixin fdrjbl_ais
+  display: flex
+  flex-direction: row
+  justify-content: baseline
+  align-items: flex-start
+
+@mixin fdrjse_ais
+  display: flex
+  flex-direction: row
+  justify-content: space-evenly
+  align-items: flex-start
+
+// ---Row AI Flex End---
+
+@mixin fdrjs_aie
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+  align-items: flex-end
+
+@mixin fdrje_aie
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+  align-items: flex-end
+
+@mixin fdrjc_aie
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: flex-end
+
+@mixin fdrjsb_aie
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: flex-end
+
+@mixin fdrjsa_aie
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  align-items: flex-end
+
+@mixin fdrjbl_aie
+  display: flex
+  flex-direction: row
+  justify-content: baseline
+  align-items: flex-end
+
+@mixin fdrjse_aie
+  display: flex
+  flex-direction: row
+  justify-content: space-evenly
+  align-items: flex-end
+
+// ---Row AI Flex Justify Center---
+
+@mixin fdrjs_aic
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+  align-items: center
+
+@mixin fdrje_aic
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+  align-items: center
+
+@mixin fdrjc_aic
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+
+@mixin fdrjsb_aic
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+
+@mixin fdrjsa_aic
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  align-items: center
+
+@mixin fdrjbl_aic
+  display: flex
+  flex-direction: row
+  justify-content: baseline
+  align-items: center
+
+@mixin fdrjse_aic
+  display: flex
+  flex-direction: row
+  justify-content: space-evenly
+  align-items: center
+
+// ----------------------Row Align-items END---------------------------
+// ********************************************************************
+// ********************************************************************
+// ********************************************************************
+// --------------------------------------------------------------------
